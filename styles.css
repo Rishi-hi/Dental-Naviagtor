@@ -236,4 +236,18 @@ footer nav a:hover {
         margin: 10px 0;
     }
 }
+@media (max-width: 768px) {
+    footer nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    footer nav a {
+        margin: 5px 10px;
+        display: inline-block;
+    }
+}
 
